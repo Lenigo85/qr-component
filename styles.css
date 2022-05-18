@@ -23,8 +23,7 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 
-
-.contenedor {
+.container {
     background: var(--white);
     width: 303px;
     height: 472px;
@@ -32,7 +31,7 @@ body {
     border-radius: 15px;
 }
 
-.titulo {
+.title {
     font-size: 21px;
     font-weight: 700;
     color: var(--dark-blue);
@@ -41,8 +40,7 @@ body {
     padding-top: 5px;
 }
 
-.parrafo {
-
+.paragraph {
     font-weight: 400;
     color: var(--grayish-blue);
     text-align: center;
@@ -55,12 +53,12 @@ img {
     width: 100%;
 }
 
-.atribucion {
+.attribution {
     padding-top: 30px;
+    text-align: center;
+    font-size: 11px;
 }
 
-@media screen and (max-width: 375px) {
-    .container {
-        min-width: calc(100vw - 60px);
-    }
-  }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
